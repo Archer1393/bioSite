@@ -1,7 +1,7 @@
 # bioSite
 bioSite
 
-h1 CSD 340 Web Development with HTML and CSS
-h2 Contributors
+<h1> CSD 340 Web Development with HTML and CSS </h1>
+<h2> Contributors </h2>
 * Cristy Cross
 * Matthew Archer
