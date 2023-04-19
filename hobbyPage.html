@@ -22,24 +22,82 @@
 		</div>
 		<div class="cont2">
 		<div class="button button2">
-			<a href="hobbyPage.html">Hobby Page</a>
+			<a href="index.html">Landing Page</a>
 		</div>
 		</div>
 		<div class="cont3">
 		<div class="button button3">
-			<a href="index.html">Landing Page</a>
+			<a href="coverPage.html">Cover Page</a>
 		</div>
 		</div>
 	</div>
 	<div class="info">
 		<body>
 		<h1> Dustin T. Archer </h1>
-		<h2> Hobbies </h2>
 		<div class="card">
+		<div class="container">
+  			<div class="mySlides">
+    				<div class="numbertext">1 / 3</div>
+      				<img src="images/bread.jpg" style="width:480px; height: 380px; border-radius: 15px;">
+  				</div>
+  			<div class="mySlides">
+    				<div class="numbertext">2 / 3</div>
+      				<img src="images/cinnamonRolls.jpg" style="width:480px; height: 380px; border-radius: 15px;">
+  				</div>
+  			<div class="mySlides">
+    				<div class="numbertext">3 / 3</div>
+      				<img src="images/gardening.jpg" style="width:480px; height: 380px; border-radius: 15px;">
+  				</div>
+  			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 		</div>
-		<p>
+		</div>
+		<h2> Hobbies, hobbies, and more hobbies! </h2>
+			<p>
+				To pass the time Dustin shares a passion with the kitchen, oven, dough, fresh air, dirt, soil, yarn, 					string, fabric, golf clubs, and turf. Growing up as a young child he was always in the kitchen watching
+				his Great Grandmother Weilenman cooking but mainly baking fresh goods all throughout the week and 					especially on the weekends. Watching her talent and delicate hands at work soon turned into him becoming
+				the helpful hands that yearned for more. Slowly learning the craft of baking, Dustin realized his love
+				for sweets and breads. This trait would be passed down to one of his children, the youngest of the two.
+				Outside of the kitchen in the fresh air of Iowa, he found himself next to his father learning how to 
+				garden. This seasonal pastime would follow him to every state he lived, besides Nevada for obvious 					reasons, and would eventually grow on his other son as he grew older. Not only would his grandmother teach
+				him how to bake, but also how to sow and embroidery. Dustin sowed together many, many items but his most
+				prized items were the baby blankets and comforters that he made for his two sons. Fast forward in time,
+				during the COVID-19 pandemic he made homemade cloth masks and sold them for very cheap with different
+				fabrics and styles. Golfing has been in his life from a younger age but more so now that he lives by a
+				golf course. He says "There's nothing like owning your own clubs and golf cart and driving down to play a
+				game on a nice sunny day."
+			</p>
 
-		</p>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 		</body>
 	</div>
 </div>
