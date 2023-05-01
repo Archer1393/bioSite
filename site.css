@@ -1,7 +1,6 @@
 .siteGrid {
 	display: grid;
 	grid-template-columns: 300px 1700px;
-	
 }
 
 header {
@@ -43,7 +42,7 @@ h2 { color: #EAE2B7; }
 
 .button {
 	border-radius: 25px;
-	background-color: #FCBF49;
+	background-color: #fc4f49;
 	color: #EAE2B7;
 	padding: 15px;
 	width: 280px;
@@ -108,9 +107,7 @@ h2 { color: #EAE2B7; }
 	border-radius: 15px;
 }
 
-.card: hover { box-shadow: 0 8px 16px 0 rgba (0, 0, 0, 0.2); }
-
-* {
+.card: hover { box-shadow: 0 8px 16px 0 rgba (0, 0, 0, 0.2); {
   box-sizing: border-box;
 }
 
