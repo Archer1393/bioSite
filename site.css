@@ -1,7 +1,6 @@
 .siteGrid {
 	display: grid;
 	grid-template-columns: 300px 1700px;
-	
 }
 
 header {
@@ -68,7 +67,7 @@ h2 { color: #EAE2B7; }
 }
 
 .button2 a {
-	color: #EAE2B7;
+	color: #FCBF49;
 	text-decoration: none;
 }
 
