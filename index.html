@@ -1,125 +1,36 @@
 <!--Matthew Archer, Module 6.3-->
 <!DOCTYPE html>
-<html lang="us">
-<link href = "site.css" type=text/css rel="stylesheet"/>
+<html lang="en">
 <head>
-	<title> bioSite Project </title>
+	<title>Cover Page</title>
+<style>
+h1 {
+	font-family: Biome;
+	text-align: center;
+}
+h1 a {
+	color: #EAE2B7;
+}
+h2 { 
+	font-family: Biome;
+	text-align: center;
+	padding: 350px 0 0 0;
+	color: #EAE2B7;
+}
+body {
+	background-color: #003049;
+}
+title {
+	font-family: Biome;
+}
+</style>
 </head>
 
-<div class="siteGrid">
-	<div class="square">
-	</div>
-	<div class="heading">
-		<header>
-			<h1> BIOSITE: LANDING PAGE </h1>
-		</header>
-	</div>
-	<div class="navbarLeft">
-		<div class="cont1">
-		<div class="button">
-			<a href="aboutPage.html">About Page</a>
-		</div>
-		</div>
-		<div class="cont2">
-		<div class="button button2">
-			<a href="hobbyPage.html">Hobby Page</a>
-		</div>
-		</div>
-		<div class="cont3">
-		<div class="button button3">
-			<a href="coverPage.html">Cover Page</a>
-		</div>
-		</div>
-	</div>
-	<div class="info">
-		<body>
-		<h1> Dustin T. Archer </h1>
-		<div class="card">
-		<div class="container">
-  			<div class="mySlides">
-    				<div class="numbertext">1 / 3</div>
-      				<img src="images/axeThrowing.jpg" style="width:480px; height: 380px; border-radius: 15px;">
-  				</div>
-  			<div class="mySlides">
-    				<div class="numbertext">2 / 3</div>
-      				<img src="images/concert.jpg" style="width:480px; height: 380px; border-radius: 15px;">
-  				</div>
-  			<div class="mySlides">
-    				<div class="numbertext">3 / 3</div>
-      				<img src="images/golfCart.jpg" style="width:480px; height: 380px; border-radius: 15px;">
-  				</div>
-  			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
- 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		</div>
-		</div>
-		<h2> Goals </h2>
-			<p> Dustin strives to obtain his goals just like everyone else. He wants to live a normal life but with a nice
-				cushion so there are no worries to be had. In the recent years he has been able to set himself up to
-				achieve the goals that he has on his mind. A list of his goals, silly or not, are as follows:
-			</p>
-				<ul>
-				<li>Buy a second house.</li>
-				<li>Invest more money back into the IRA and stocks.</li>
-				<li>Help son pay down his student loans.</li>
-				<li>Throw more charity events for work.</li>
-				<li>Attend more concerts.</li>
-				<li>Retire in the next two years.</li>
-				<li>Get better at axe throwing.</li>
-				</ul>
-		<h2> Accomplishments </h2>
-			<p> He has accomplished many things in his life. Starting from finishing all grades of school up to before				college. He started college at <i>Indian Hill Community College</i> in Centerville, IA in 1993 under the Nursing 				program. Once graduated he also obtained his LPN degree in 1994 and RN degree in 1995. Dustin has worked
-				countless different positions in the Nursing field. To name some of them here is a list:
-			</p>
-				<ul>
-				<li>ER Nurse</li>
-				<li>Medical/Surgical Nurse</li>
-				<li>IN Center Hemo Dialysis</li>
-				<li>Home Peritonel Nursing</li>
-				<li>Home Health</li>
-				<li>Hospice</li>
-				<li>Drug and Alcohol Detox and Rehab Nurse</li>
-				<li>Long-term Care</li>
-				<li>Acute Rehab</li>
-				<li>Director of Nursing at Glenhaven Village</li>
-				<li>Administrator of Nursing at an ICF/ID Facility of the state</li>
-				<li>Director of Nursing of Acute Long-term care at rehab facility</li>
-				</ul>
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
+<header>
+<h2> bioSite </h2>
+</header>
 
-function plusSlides(n) {
-	showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-	showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-	let i;
-	let slides = document.getElementsByClassName("mySlides");
-	let dots = document.getElementsByClassName("demo");
-	let captionText = document.getElementById("caption");
-	if (n > slides.length) {slideIndex = 1}
-	if (n < 1) {slideIndex = slides.length}
-	for (i = 0; i < slides.length; i++) {
-	slides[i].style.display = "none";
-	}
-	for (i = 0; i < dots.length; i++) {
-	dots[i].className = dots[i].className.replace(" active", "");
-	}
-	slides[slideIndex-1].style.display = "block";
-	dots[slideIndex-1].className += " active";
-	captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-		</body>
-	</div>
-</div>
-
-<footer>
-	<a href="coverPage.html"> back to Cover Page </a>
-</footer>
-
+<body>
+<h1><a href="index.html"> DUSTIN T. ARCHER </a></h1>
+</body>
 </html>
