@@ -1,24 +1,12 @@
 .siteGrid {
 	display: grid;
 	grid-template-columns: 325px 1700px;
-}
-
-header {
-	font-size: 40px;
-}
-
-heading {
 	width: auto;
 	height: auto;
 }
 
-.square {
-	background-color: white;
-	width: 325px;
-	height: 200px;
-	border-style: none solid solid none;
-	border-color: #EAE2B7;
-	border-width: 5px;
+header {
+	font-size: 40px;
 }
 
 h1 {
@@ -32,14 +20,36 @@ h2 { color: #EAE2B7; }
 	box-sizing: border-box;
 }
 
+.square {
+	background-color: white;
+	width: 325px;
+	height: 200px;
+	border-style: none solid solid none;
+	border-color: #EAE2B7;
+	border-width: 5px;
+}
+
+heading {
+	width: auto;
+	height: auto;
+}
+
 .navbarLeft {
 	height: 750px;
-	width: auto;
+	width: 75%;
 	border-style: none solid none none;
 	border-color: #EAE2B7;
 	border-width: 5px;
 	padding: 0 25px 0 0;
 }
+
+.info {
+	border-style: solid none solid none;
+	border-color: #EAE2B7;
+	border-width: 5px;
+	padding: 0 0 0 15px;
+}
+
 
 .cont1 {
 	display: block;
@@ -95,13 +105,6 @@ h2 { color: #EAE2B7; }
 .button3 a {
 	color: #EAE2B7;
 	text-decoration: none;
-}
-
-.info {
-	border-style: solid none solid none;
-	border-color: #EAE2B7;
-	border-width: 5px;
-	padding: 0 0 0 15px;
 }
 
 .card {
