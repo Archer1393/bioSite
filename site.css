@@ -25,7 +25,7 @@ h2 { color: #EAE2B7; }
 
 .navbarLeft {
 	height: 750px;
-	width: 300px;
+	width: 335px;
 	border-style: none solid none none;
 	border-color: #EAE2B7;
 	border-width: 5px;
@@ -41,7 +41,7 @@ h2 { color: #EAE2B7; }
 
 .button {
 	border-radius: 25px;
-	background-color: #EAE2B7;
+	background-color: #fc4f49;
 	color: #EAE2B7;
 	padding: 15px;
 	width: 280px;
