@@ -5,7 +5,6 @@
 
 header {
 	font-size: 40px;
-	width-left: 80%;
 }
 
 .square {
@@ -107,8 +106,9 @@ h2 { color: #EAE2B7; }
 	border-radius: 15px;
 }
 
-.card: hover { box-shadow: 0 8px 16px 0 rgba (0, 0, 0, 0.2); {
-  box-sizing: border-box;
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba (0, 0, 0, 0.2);
+	box-sizing: border-box;
 }
 
 .container {
