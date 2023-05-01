@@ -7,6 +7,11 @@ header {
 	font-size: 40px;
 }
 
+heading {
+	width: auto;
+	height: auto;
+}
+
 .square {
 	background-color: white;
 	width: 325px;
@@ -27,14 +32,7 @@ h2 { color: #EAE2B7; }
 	box-sizing: border-box;
 }
 
-.menu {
-	width: 25%;
-	float: left;
-}
-.main {
-	width: 75%;
-	float: left;
-}
+
 
 img {
 	width: 100%;
@@ -43,7 +41,7 @@ img {
 
 .navbarLeft {
 	height: 750px;
-	width: 335px;
+	width: auto;
 	border-style: none solid none none;
 	border-color: #EAE2B7;
 	border-width: 5px;
