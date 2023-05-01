@@ -67,7 +67,11 @@ h2 { color: #EAE2B7; }
 }
 
 .button2 a {
+<<<<<<< HEAD
 	color: #fc4f49;
+=======
+	color: #FCBF49;
+>>>>>>> 74979a98d5024f0a280204e528243a0edc6b82ba
 	text-decoration: none;
 }
 
