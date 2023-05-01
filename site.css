@@ -120,8 +120,7 @@ h2 { color: #EAE2B7; }
   cursor: pointer;
 }
 
-.prev,
-.next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -141,8 +140,7 @@ h2 { color: #EAE2B7; }
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -171,8 +169,7 @@ h2 { color: #EAE2B7; }
   opacity: 0.6;
 }
 
-.active,
-.demo:hover {
+.active, .demo:hover {
   opacity: 1;
 }
 
