@@ -23,6 +23,24 @@ h1 {
 
 h2 { color: #EAE2B7; }
 
+* {
+	box-sizing: border-box;
+}
+
+.menu {
+	width: 25%;
+	float: left;
+}
+.main {
+	width: 75%;
+	float: left;
+}
+
+img {
+	width: 100%;
+	height: auto;
+  }
+
 .navbarLeft {
 	height: 750px;
 	width: 335px;
