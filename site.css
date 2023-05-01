@@ -42,14 +42,14 @@ h2 { color: #EAE2B7; }
 
 .button {
 	border-radius: 25px;
-	background-color: #fc4f49;
+	background-color: #EAE2B7;
 	color: #EAE2B7;
 	padding: 15px;
 	width: 280px;
 }
 
 .button a {
-	color: #EAE2B7;
+	color: #fc4f49;
 	text-decoration: none;
 }
 
@@ -67,11 +67,7 @@ h2 { color: #EAE2B7; }
 }
 
 .button2 a {
-<<<<<<< HEAD
-	color: #fc4f49;
-=======
-	color: #FCBF49;
->>>>>>> 74979a98d5024f0a280204e528243a0edc6b82ba
+	color: #EAE2B7;
 	text-decoration: none;
 }
 
